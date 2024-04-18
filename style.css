@@ -42,14 +42,17 @@ outline: none;}
 
 section{background-color: black;}
 
-#form{padding-left: 250px; padding-top: 220px;}
+#form{margin-left: 280px;; padding-top: 220px; column-width: 665px;}
+
+#images{margin-left: 300px; margin-inline-start: 60px;}
 
 .goheading{color: white; font-size: 50px; font-weight: 700;}
 
 .gopara{color: white; margin-top: 30px;}
 
-#exampleInputEmail1, #exampleInputPassword1 {width: 400px; height: 50px; border-radius: 10px; font-size: 18px;}
+#exampleInputEmail1, #exampleInputPassword1 {width: 400px; height: 50px; border-radius: 10px; font-size: 16px;}
 
-#gobutton{background-color: white; font-size: 20px; color: black; font-weight: 400; margin-top: 10px; width: 120px; height: 50px;}
+#gobutton{background-color: white; font-size: 16px; color: black; font-weight: 500; margin-top: 10px; width: 120px; height: 50px;}
 
 #goimage{width: 550px; height: 700px; margin-top: 70px;}
+
