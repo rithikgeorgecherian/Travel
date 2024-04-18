@@ -32,17 +32,17 @@ transition: 0.3s background-color;}
 #navare:focus, .btn-close:focus {box-shadow: none;
 outline: none;}
 
-@media(min-width:991px){#navulinku{color: white ; font-weight: 500; font-size: 18px;}
+@media(min-width:992px){#navulinku{color: white ; font-weight: 500; font-size: 18px;}
 
                 #navulinku:hover{color: rgba(255, 255, 255, 0.651);font-weight: 500;}}
 
-@media(max-width:991px){#navulinku{color: rgb(0, 0, 0) ; font-weight: 500; font-size: 18px;}
+@media(max-width:992px){#navulinku{color: rgb(0, 0, 0) ; font-weight: 500; font-size: 18px;}
 
 #navulinku:hover{color: rgba(0, 0, 0, 0.651);font-weight: 500;}}
 
-section{background-color: black;}
+#section{background-color: black; width:100% ;}
 
-#form{margin-left: 80px;; padding-top: 220px; padding-right: 50px; width: 50%; margin-left: 250px;}
+#form{margin-left: 80px;; padding-top: 220px; padding-right: 50px; width: 50%; margin-left: 100px;}
 
 #images{width: 50%; margin-right: 100px;}
 
