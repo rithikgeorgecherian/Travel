@@ -1,0 +1,55 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+border: none;
+outline: none;
+scroll-behavior: smooth;}
+
+
+#trek{font-size: 40px; font-weight: 800; color: white; margin-left: 30px;}
+
+.signup-button{background-color: white;
+color: black; font-size: 18px;  font-weight: 600; margin-right: 30px;
+padding: 8px 20px;
+border-radius: 50px;
+text-decoration: none;
+transition: 0.3s background-color;}
+
+.login-button{background-color: black;
+    color: white; font-size: 18px; font-weight: 500;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color; margin-right: 20px;}
+
+.login-button:hover{color: rgba(255, 255, 255, 0.651);}    
+
+.signup-button:hover{background-color: rgba(255, 255, 255, 0.651);}
+
+#navare {border: none; color: black;}
+
+#navare:focus, .btn-close:focus {box-shadow: none;
+outline: none;}
+
+@media(min-width:991px){#navulinku{color: white ; font-weight: 500; font-size: 18px;}
+
+                #navulinku:hover{color: rgba(255, 255, 255, 0.651);font-weight: 500;}}
+
+@media(max-width:991px){#navulinku{color: rgb(0, 0, 0) ; font-weight: 500; font-size: 18px;}
+
+#navulinku:hover{color: rgba(0, 0, 0, 0.651);font-weight: 500;}}
+
+section{background-color: black;}
+
+#form{padding-left: 250px; padding-top: 220px;}
+
+.goheading{color: white; font-size: 50px; font-weight: 700;}
+
+.gopara{color: white; margin-top: 30px;}
+
+#exampleInputEmail1, #exampleInputPassword1 {width: 400px; height: 50px; border-radius: 10px; font-size: 18px;}
+
+#gobutton{background-color: white; font-size: 20px; color: black; font-weight: 400; margin-top: 10px; width: 120px; height: 50px;}
+
+#goimage{width: 550px; height: 700px; margin-top: 70px;}

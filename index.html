@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: black; overflow-x: hidden; overflow-y: hidden;">
+    <div class="container-fluid" style="overflow-x: hidden; overflow-y: hidden;">
+      <a id="trek" class="navbar-brand me-auto" href="#">Trek</a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 50px; font-weight: 800;">Trek</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a id="navulinku" class="nav-link active mx-lg-2"  aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="navulinku" class="nav-link mx-lg-2"  href="#">Ride</a>
+            </li>
+            <li class="nav-item">
+              <a id="navulinku" class="nav-link mx-lg-2"  href="#">Drive</a>
+            </li>
+            <li class="nav-item">
+              <a id="navulinku" class="nav-link mx-lg-2"  href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a id="navulinku" class="nav-link mx-lg-2" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <a href="#" class="login-button">Log in</a> -->
+      <a href="#" class="login-button">Log In</a>
+      <a href="#" class="signup-button">Sign up</a>
+      <button id="navare" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span style="background-color: white;" class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <section style="overflow-x: hidden; overflow-y: hidden;">
+    <div class="row" style="overflow-x: hidden; overflow-y: hidden;" >
+      <div class="col-1"></div>
+      <div class="col-5" id="form">
+        <div>
+          <h1 class="goheading">Go anywhere with <br> Trek</h1>
+        </div>
+        <div>
+          <p class="gopara">Request a ride, hope in, and go.</p>
+        </div>
+        <div>
+          <form>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter location" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter destination">
+            </div>
+            <button id="gobutton" type="submit" class="btn btn-primary">See prices</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-1" style="width: 10px;"></div>
+      <div class="col-5">
+        <img id="goimage" src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1116,h_1396/v1684852612/assets/ba/4947c1-b862-400e-9f00-668f4926a4a2/original/Ride-with-Uber.png" alt="" width="100%">
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
