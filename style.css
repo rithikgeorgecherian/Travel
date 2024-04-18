@@ -42,9 +42,10 @@ outline: none;}
 
 section{background-color: black;}
 
-#form{margin-left: 280px;; padding-top: 220px; column-width: 665px;}
+#form{margin-left: 80px;; padding-top: 220px; padding-right: 50px; width: 50%; margin-left: 250px;}
 
-#images{margin-left: 300px; margin-inline-start: 60px;}
+#images{width: 50%; margin-right: 100px;}
+
 
 .goheading{color: white; font-size: 50px; font-weight: 700;}
 
@@ -56,3 +57,26 @@ section{background-color: black;}
 
 #goimage{width: 550px; height: 700px; margin-top: 70px;}
 
+#section{overflow-x: hidden;
+     overflow-y: hidden; 
+     display:flex; 
+     width: 100%;
+     height: auto;
+    flex-direction: row;
+justify-content: space-around;
+}
+
+@media screen and (max-width: 1380px){
+    #form{margin-left: 70px;}
+    #images{margin-right: 70px;}
+    #goimage{padding-right: 80px;}
+}
+
+@media screen and (max-width:992px){
+    #section{width: 100% ; display: block;}
+    #form{width: 100%; margin-top: -180px; margin-left: 20px;}
+    #images{width: 100%;}
+    #goimage{width: 100%; height: 100%; margin: 20px; padding-right: 40px;}
+    #exampleInputEmail1, #exampleInputPassword1{width: 100%;}
+    #brtag{display: none;}
+}
